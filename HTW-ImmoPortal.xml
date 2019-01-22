@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_21" class="java.beans.XMLDecoder"> 
+ <string>HTW-ImmoPortal</string> 
+ <object class="htwimmoportal.Verwaltung"> 
+  <void property="immobilienListe"> 
+   <void method="add"> 
+    <object class="htwimmoportal.Haus"> 
+     <void property="adresse"> 
+      <object id="Adresse0" class="htwimmoportal.Adresse"> 
+       <void property="postleitzahl"> 
+        <int>66123</int> 
+       </void> 
+       <void property="strasse"> 
+        <string>Karl-Friedrich-Allee 12</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="groesse"> 
+      <double>180.0</double> 
+     </void> 
+     <void property="id"> 
+      <int>1000</int> 
+     </void> 
+     <void property="istAngebot"> 
+      <boolean>true</boolean> 
+     </void> 
+     <void property="kunde"> 
+      <object id="Kunde0" class="htwimmoportal.Kunde"> 
+       <void property="id"> 
+        <int>2000</int> 
+       </void> 
+       <void property="name"> 
+        <string>Weber</string> 
+       </void> 
+       <void property="telefonnummer"> 
+        <string>0177 83392332</string> 
+       </void> 
+       <void property="vorname"> 
+        <string>Alex</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="preis"> 
+      <double>310000.0</double> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="htwimmoportal.Haus"> 
+     <void property="adresse"> 
+      <object id="Adresse1" class="htwimmoportal.Adresse"> 
+       <void property="postleitzahl"> 
+        <int>66125</int> 
+       </void> 
+       <void property="strasse"> 
+        <string>Otto-Strasse 4</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="groesse"> 
+      <double>160.0</double> 
+     </void> 
+     <void property="id"> 
+      <int>1001</int> 
+     </void> 
+     <void property="kunde"> 
+      <object id="Kunde1" class="htwimmoportal.Kunde"> 
+       <void property="id"> 
+        <int>2001</int> 
+       </void> 
+       <void property="name"> 
+        <string>Mustermann</string> 
+       </void> 
+       <void property="telefonnummer"> 
+        <string>0172 2233593</string> 
+       </void> 
+       <void property="vorname"> 
+        <string>Martin</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="preis"> 
+      <double>290000.0</double> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="htwimmoportal.Wohnung"> 
+     <void property="adresse"> 
+      <object idref="Adresse0"/> 
+     </void> 
+     <void property="groesse"> 
+      <double>85.0</double> 
+     </void> 
+     <void property="id"> 
+      <int>1002</int> 
+     </void> 
+     <void property="istAngebot"> 
+      <boolean>true</boolean> 
+     </void> 
+     <void property="kunde"> 
+      <object idref="Kunde0"/> 
+     </void> 
+     <void property="preis"> 
+      <double>140000.0</double> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="htwimmoportal.Wohnung"> 
+     <void property="adresse"> 
+      <object idref="Adresse1"/> 
+     </void> 
+     <void property="groesse"> 
+      <double>68.0</double> 
+     </void> 
+     <void property="id"> 
+      <int>1003</int> 
+     </void> 
+     <void property="kunde"> 
+      <object idref="Kunde1"/> 
+     </void> 
+     <void property="preis"> 
+      <double>124000.0</double> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="htwimmoportal.Grundstueck"> 
+     <void property="adresse"> 
+      <object idref="Adresse0"/> 
+     </void> 
+     <void property="groesse"> 
+      <double>310.0</double> 
+     </void> 
+     <void property="id"> 
+      <int>1004</int> 
+     </void> 
+     <void property="istAngebot"> 
+      <boolean>true</boolean> 
+     </void> 
+     <void property="kunde"> 
+      <object idref="Kunde0"/> 
+     </void> 
+     <void property="preis"> 
+      <double>40000.0</double> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="htwimmoportal.Grundstueck"> 
+     <void property="adresse"> 
+      <object idref="Adresse1"/> 
+     </void> 
+     <void property="groesse"> 
+      <double>400.0</double> 
+     </void> 
+     <void property="id"> 
+      <int>1005</int> 
+     </void> 
+     <void property="kunde"> 
+      <object idref="Kunde1"/> 
+     </void> 
+     <void property="preis"> 
+      <double>65000.0</double> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="kundenListe"> 
+   <void method="add"> 
+    <object idref="Kunde0"/> 
+   </void> 
+   <void method="add"> 
+    <object idref="Kunde1"/> 
+   </void> 
+   <void method="add"> 
+    <object class="htwimmoportal.Kunde"> 
+     <void property="id"> 
+      <int>2002</int> 
+     </void> 
+     <void property="name"> 
+      <string>Abawi</string> 
+     </void> 
+     <void property="telefonnummer"> 
+      <string>0171 xxxxxxx</string> 
+     </void> 
+     <void property="vorname"> 
+      <string>Daniel F.</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 
